@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby ' 2.5.0', '>= 2.1.1'
+ruby '2.5.0', '>= 2.1.1'
 
 gem 'acts_as_votable', '~> 0.11.1'
+
+
 
 gem 'devise', '~> 4.4', '>= 4.4.1'
 
